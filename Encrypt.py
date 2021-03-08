@@ -7,7 +7,7 @@ def jalan(T):
      sys.stdout.write(r)
      sys.stdout.flush()
      time.sleep(10/200)
-
+print ("type '0000' ..!")
 password= "issam"
 word = " "
 count= 0
