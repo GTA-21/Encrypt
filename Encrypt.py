@@ -35,12 +35,18 @@ jalan('''\033[1;96m--------------E---N---C---R---Y---P---T----------------
                     \033[1;91mpassword\033[1;97m:issam
 \033[1;96m-------------------------------------------------------
 \033[1;94m
-       [1] Encode          [3]               [5]  ?
+    [1] Encode                        
 
 
-       [2] Decode          [4]  ?            [6] Exit\n''')
+    [2] Decode                     
+      
+       
+    [3] my Facebook
 
-x =input("\033[1;94m»")
+       
+    [4] Exit\n''')
+
+   x =input("\033[1;94m»")
 if x == "1":
       print ('\033[1;92m')
       encode_text = input("Enter Your Text For Encode It >>: ")
@@ -56,6 +62,9 @@ elif x == "2":
       print ("\033[1;92m------------------")
       print ("\033[1;92mDone:\033[1;97m "+ decodeit)
       print ("\033[1;92m-----------------------")
+elif x == "3":
+      os.system('xdg-open https://www.facebook.com/clavier.azerty.999') 
+      exit()
 else:
       print ("\033[1;91mType Just 1 Or 2 !!")
       exit()
