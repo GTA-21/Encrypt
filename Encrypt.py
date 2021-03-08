@@ -64,7 +64,7 @@ elif x == "2":
       print ("\033[1;92m-----------------------")
 elif x == "3":
       os.system('xdg-open https://www.facebook.com/clavier.azerty.999') 
-       exit()
+      exit()
 else:
       print ("\033[1;91mType Just 1 Or 2 !!")
       exit()
